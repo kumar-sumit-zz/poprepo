@@ -1,25 +1,15 @@
 # README
+# AUTHOR - SUMIT KUMAR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This ruby on rails webapp lists top 5 popular repositories of any organization based on number of forks
+* For each popular repo, it will display 3 top committees and their counts
+* The code for the function finding the popular repo and their committees is in /app/controllers/repo_controller.rb
+* showpoprepo method finds the popular repo for the organsation
+* topcommittees method finds the top committees for that repo
+* It is a complete webapp and can be run on localhost as follows:
 
-Things you may want to cover:
+ -- $ bundle install    # to install required gems
+ -- $ rails s           # open http://localhost:3000  and enter the organisation name to get 5 popular repo
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# poprepo
+ * The code is modular and configurable and can be extended to any organization
+ * The code is production ready and the demo is available on -> 
