@@ -1,0 +1,10 @@
+<h3> List of top 3 committees and their respective count for repo <span style="color: red;"><%= @reponame%></span></h3>
+<ul>
+	<% for i in 0..2 %>
+	<li>
+		<span style="color: red;"><%= @committee[i] %></span> with commit-count = <span style="color: red;"><%= @commit_count[i] %></span>
+	</li>
+	<% end %>
+</ul>
+<% url="/showpoprepo?utf8=✓&orgname="+$orgname+"" %>
+<a href="<%= url%>"> Back to results </a>

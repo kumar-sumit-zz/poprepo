@@ -1,0 +1,18 @@
+<div class="col-md-12 col-sm-12 col-xs-12">
+<h3>List popular repos for <span style="color: red;"><%= $orgname %></span></h3>
+<p>
+	<ul>
+	<% count=0 %>
+	<% link=['/topcommittees1','/topcommittees2','/topcommittees3','/topcommittees4','/topcommittees5'] %>
+  <% @repos_items.each do |repo| %>
+    <li><%= repo['name'] %>
+    	<a href="<%= link[count]%>">     Show top 3 committees for => <%= repo['name'] %> </a>	
+    </li>
+    	<% count=count+1 %>
+    	<% if count==5 %>
+    		<% break %>
+    	<% end %>
+  <% end %>
+</ul>
+</p>
+</div>
