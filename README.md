@@ -1,4 +1,5 @@
-# README
+# Most Popular Repository of an organization and top committees
+# Demo at (http://poprepo.heroku.com)
 # AUTHOR - SUMIT KUMAR
 
 * This ruby on rails webapp lists top 5 popular repositories of any organization based on number of forks
@@ -12,4 +13,4 @@
 * -- $ rails s           # open http://localhost:3000  and enter the organisation name to get 5 popular repo
 
  * The code is modular and configurable and can be extended to any organization
- * The code is production ready and the demo is available on -> 
+ * The code is production ready and the live demo is available on -> http://poprepo.heroku.com
