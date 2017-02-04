@@ -8,8 +8,8 @@
 * topcommittees method finds the top committees for that repo
 * It is a complete webapp and can be run on localhost as follows:
 
- -- $ bundle install    # to install required gems
- -- $ rails s           # open http://localhost:3000  and enter the organisation name to get 5 popular repo
+* -- $ bundle install    # to install required gems
+* -- $ rails s           # open http://localhost:3000  and enter the organisation name to get 5 popular repo
 
  * The code is modular and configurable and can be extended to any organization
  * The code is production ready and the demo is available on -> 
